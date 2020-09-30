@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: authorizationservice
+        app: AuthorizationService
     spec:
       containers:
       - name: authorizationrepos
@@ -30,4 +30,4 @@ spec:
   ports:
   - port: 80
   selector:
-    app: authorizationservice
+    app: AuthorizationService
